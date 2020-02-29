@@ -1,86 +1,16 @@
 ---
-title: 'SpiceyPy: a Pythonic Wrapper for the SPICE Toolkit'
+title: 'PlagiarismChecker: Automated Plagiarism Detection in Academic Writing'
 tags:
-  - Python
-  - SPICE
-  - ephemeris
-  - geometry
-  - navigation
-  - spacecraft
-  - planets
+  - C#
+  - WPF
+  - Plagiarism
 authors:
-  - name: Andrew M. Annex
-    orcid: 0000-0002-0253-2313
+  - name: Atish Kumar Dipongkor
+    orcid: 0000-0001-8253-429X
     affiliation: 1
-  - name: Ben Pearson
-    affiliation: 2
-  - name: Benoît Seignovert
-    orcid: 0000-0001-6533-275X
-    affiliation: 3
-  - name: Brian T. Carcich
-    orcid: 0000-0001-9211-6526
-    affiliation: 4
-  - name: Helge Eichhorn
-    orcid: 0000-0003-0303-5199
-    affiliation: 5
-  - name: Jesse A. Mapel
-    orcid: 0000-0001-5756-0373
-    affiliation: 6
-  - name: Johan L. Freiherr von Forstner
-    orcid: 0000-0002-1390-4776
-    affiliation: 7
-  - name: Jonathan McAuliffe
-    affiliation: 8
-  - name: Jorge Diaz del Rio
-    affiliation: 9
-  - name: Kristin L. Berry
-    orcid: 0000-0001-9757-9706
-    affiliation: 6
-  - name: K.-Michael Aye
-    orcid: 0000-0002-4088-1928
-    affiliation: 10
-  - name: Marcel Stefko
-    orcid: 0000-0002-7736-2611
-    affiliation: 11
-  - name: Miguel de Val-Borro
-    orcid: 0000-0002-0455-9384
-    affiliation: 12
-  - name: Shankar Kulumani
-    orcid: 0000-0002-7822-0471
-    affiliation: 13
-  - name: Shin-ya Murakami
-    orcid: 0000-0002-7137-4849
-    affiliation: 14
 affiliations:
- - name: Johns Hopkins University
+ - name: Jashore University of Science and Technology
    index: 1
- - name: None
-   index: 2
- - name: Jet Propulsion Laboratory, California Institute of Technology
-   index: 3
- - name: Latchmoor Services, LLC
-   index: 4
- - name: Planetary Transportation Systems GmbH
-   index: 5
- - name: USGS Astrogeology Science Center
-   index: 6
- - name: Institute of Experimental and Applied Physics, University of Kiel
-   index: 7
- - name: DLR Gesellschaft für Raumfahrtanwendungen (GfR) mbH
-   index: 8
- - name: ODC Space
-   index: 9
- - name: Laboratory for Atmospheric and Space Physics, University of Colorado
-   index: 10
- - name: ETH Zurich
-   index: 11
- - name: Planetary Science Institute
-   index: 12
- - name: Collins Aerospace
-   index: 13
- - name: GFD Dennou Club
-   index: 14
-
 date: 23 January 2020
 bibliography: paper.bib
 
