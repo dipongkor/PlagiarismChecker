@@ -89,7 +89,7 @@ namespace PlagiarismChecker.Ui.Views
         private void Proceed(string folderLocation, int nGramValue, string outputLocation, float threshold)
         {
             var pdfParser = new PdfParser();
-            var tfIdf = new TfIdf();
+            var tfIdf = new DocumentTermFrequency();
             var nGram = new Ngram();
 
             var reports = new Dictionary<string, List<string>>();

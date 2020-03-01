@@ -46,7 +46,7 @@
     <Compile Include="Ngram.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Similarity.cs" />
-    <Compile Include="TfIdf.cs" />
+    <Compile Include="DocumentTermFrequency.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

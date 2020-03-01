@@ -4,6 +4,11 @@ namespace Plagiarism.Vectoriser
 {
     public class Similarity
     {
+        /// <summary>
+        /// Creates row wise cosine similarity from a 2-d matrix
+        /// </summary>
+        /// <param name="matrix">2-d matrix</param>
+        /// <returns></returns>
         public double[,] CreateRowWise(double[,] matrix)
         {
             var similarityMatrix = new double[matrix.GetLength(0), matrix.GetLength(0)];
@@ -37,6 +42,12 @@ namespace Plagiarism.Vectoriser
             return similarityMatrix;
         }
 
+        /// <summary>
+        /// Creates cosine similarity from two vectors
+        /// </summary>
+        /// <param name="v1">vector1</param>
+        /// <param name="v2">vector2</param>
+        /// <returns></returns>
         public double CosineSimilarity(double[] v1, double[] v2)
         {
             var dotSum = 0.0;

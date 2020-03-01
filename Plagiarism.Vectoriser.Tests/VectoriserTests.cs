@@ -19,7 +19,7 @@ namespace Plagiarism.Vectoriser.Tests
         [TestMethod]
         public void CreateTfIdf()
         {
-            var tfIdf = new TfIdf();
+            var tfIdf = new DocumentTermFrequency();
 
             var nGram = new Ngram();
             var pdfParser = new PdfParser();

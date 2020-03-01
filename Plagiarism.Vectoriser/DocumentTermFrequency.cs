@@ -1,11 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 
 namespace Plagiarism.Vectoriser
 {
-    public class TfIdf
+    public class DocumentTermFrequency
     {
+        /// <summary>
+        /// Creates document-term frequency
+        /// </summary>
+        /// <param name="documents">list of documents as dictionary</param>
+        /// <returns></returns>
         public double[,] Create(Dictionary<string, List<string>> documents)
         {
             var allWords = new List<string>();

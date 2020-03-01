@@ -4,6 +4,12 @@ namespace Plagiarism.Vectoriser
 {
     public class Ngram
     {
+        /// <summary>
+        /// Creates n-gram from sentence(s)
+        /// </summary>
+        /// <param name="input">sentence(s)</param>
+        /// <param name="n">size of n gram</param>
+        /// <returns></returns>
         public List<string> Create(string input, int n)
         {
             var nGrams = new List<string>();
