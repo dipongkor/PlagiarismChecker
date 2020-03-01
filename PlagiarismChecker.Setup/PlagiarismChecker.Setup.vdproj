@@ -15,25 +15,37 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_0CAB79E1C0C8A03EE1F93161A1B80569"
-        "OwnerKey" = "8:_A2572A583FE04573B8201D17AD09CFF9"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_0CAB79E1C0C8A03EE1F93161A1B80569"
-        "OwnerKey" = "8:_A7D4E768F006D45D724A07004462D43D"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_25993908E1A76957E983C014BD4C78A5"
         "OwnerKey" = "8:_A2572A583FE04573B8201D17AD09CFF9"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_9E737C82EF27EE9FC0B290AC365795EE"
+        "MsmKey" = "8:_72C7439054D0259BAEF234AE92F04C93"
+        "OwnerKey" = "8:_A2572A583FE04573B8201D17AD09CFF9"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_834977198418116D8277607A31DEA0F4"
+        "OwnerKey" = "8:_A2572A583FE04573B8201D17AD09CFF9"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_834977198418116D8277607A31DEA0F4"
+        "OwnerKey" = "8:_9C67F38E62E00F8E15133F8DB90951D4"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_9C67F38E62E00F8E15133F8DB90951D4"
+        "OwnerKey" = "8:_A2572A583FE04573B8201D17AD09CFF9"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_9F64B46FF7D43BAAA2B71AC031FBEF42"
         "OwnerKey" = "8:_A2572A583FE04573B8201D17AD09CFF9"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -45,50 +57,38 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_A7D4E768F006D45D724A07004462D43D"
+        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_A2572A583FE04573B8201D17AD09CFF9"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_D95073C5DC848642B0F8C97C7071C3FE"
-        "OwnerKey" = "8:_A2572A583FE04573B8201D17AD09CFF9"
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_9C67F38E62E00F8E15133F8DB90951D4"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_834977198418116D8277607A31DEA0F4"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_72C7439054D0259BAEF234AE92F04C93"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_9F64B46FF7D43BAAA2B71AC031FBEF42"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_25993908E1A76957E983C014BD4C78A5"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_A2572A583FE04573B8201D17AD09CFF9"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_A7D4E768F006D45D724A07004462D43D"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_0CAB79E1C0C8A03EE1F93161A1B80569"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_9E737C82EF27EE9FC0B290AC365795EE"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_D95073C5DC848642B0F8C97C7071C3FE"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -109,6 +109,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -125,6 +141,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -154,37 +178,6 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_0CAB79E1C0C8A03EE1F93161A1B80569"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:itextsharp, Version=5.5.13.1, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_0CAB79E1C0C8A03EE1F93161A1B80569"
-                    {
-                    "Name" = "8:itextsharp.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:itextsharp.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_020DEF8D20264421B0F09904A888544B"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_25993908E1A76957E983C014BD4C78A5"
             {
             "AssemblyRegister" = "3:1"
@@ -216,14 +209,14 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9E737C82EF27EE9FC0B290AC365795EE"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_72C7439054D0259BAEF234AE92F04C93"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:Plagiarism.Vectoriser, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_9E737C82EF27EE9FC0B290AC365795EE"
+                    "_72C7439054D0259BAEF234AE92F04C93"
                     {
                     "Name" = "8:Plagiarism.Vectoriser.dll"
                     "Attributes" = "3:512"
@@ -247,14 +240,45 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A7D4E768F006D45D724A07004462D43D"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_834977198418116D8277607A31DEA0F4"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:itextsharp, Version=5.5.13.1, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_834977198418116D8277607A31DEA0F4"
+                    {
+                    "Name" = "8:itextsharp.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:itextsharp.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_020DEF8D20264421B0F09904A888544B"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9C67F38E62E00F8E15133F8DB90951D4"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:PlagiarismChecker.Pdf.Parser, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_A7D4E768F006D45D724A07004462D43D"
+                    "_9C67F38E62E00F8E15133F8DB90951D4"
                     {
                     "Name" = "8:PlagiarismChecker.Pdf.Parser.dll"
                     "Attributes" = "3:512"
@@ -278,14 +302,14 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_D95073C5DC848642B0F8C97C7071C3FE"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9F64B46FF7D43BAAA2B71AC031FBEF42"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:WpfAnimatedGif, Version=1.4.18.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_D95073C5DC848642B0F8C97C7071C3FE"
+                    "_9F64B46FF7D43BAAA2B71AC031FBEF42"
                     {
                     "Name" = "8:WpfAnimatedGif.dll"
                     "Attributes" = "3:512"
@@ -366,7 +390,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:PlagiarismChecker.Setup"
         "ProductCode" = "8:{94512EA7-1AD9-4049-9389-1DA624E25086}"
-        "PackageCode" = "8:{EE2816AC-EA00-4487-B90F-7DD629C23FAB}"
+        "PackageCode" = "8:{1F15F332-5716-4EDF-B64D-B35320A3DACF}"
         "UpgradeCode" = "8:{2122B0C9-1261-4CF5-AAC9-0A1F0EEDFBC0}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -374,12 +398,12 @@
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:Default Company Name"
+        "Manufacturer" = "8:JUST"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
         "Title" = "8:PlagiarismChecker.Setup"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:Default Company Name"
+        "ARPCONTACT" = "8:Atish Kumar"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
