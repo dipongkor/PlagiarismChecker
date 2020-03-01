@@ -96,8 +96,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MvvmFramework\BaseNotifyPropertyChanged.cs" />
-    <Compile Include="MvvmFramework\RelayCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

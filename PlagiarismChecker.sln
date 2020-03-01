@@ -13,8 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plagiarism.Vectoriser", "Pl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plagiarism.Vectoriser.Tests", "Plagiarism.Vectoriser.Tests\Plagiarism.Vectoriser.Tests.csproj", "{55991CD2-D007-46CD-BBA1-E1B09FC77A96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlagiarismChecker.Tests", "PlagiarismChecker.Tests\PlagiarismChecker.Tests.csproj", "{6DFBF10B-A04E-4FE0-A18A-D81F771D72F6}"
-EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PlagiarismChecker.Setup", "PlagiarismChecker.Setup\PlagiarismChecker.Setup.vdproj", "{3D7FB89E-A14B-4988-AA5E-AAE2DCD4137F}"
 EndProject
 Global
@@ -43,10 +41,6 @@ Global
 		{55991CD2-D007-46CD-BBA1-E1B09FC77A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55991CD2-D007-46CD-BBA1-E1B09FC77A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55991CD2-D007-46CD-BBA1-E1B09FC77A96}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6DFBF10B-A04E-4FE0-A18A-D81F771D72F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6DFBF10B-A04E-4FE0-A18A-D81F771D72F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6DFBF10B-A04E-4FE0-A18A-D81F771D72F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6DFBF10B-A04E-4FE0-A18A-D81F771D72F6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3D7FB89E-A14B-4988-AA5E-AAE2DCD4137F}.Debug|Any CPU.ActiveCfg = Debug
 		{3D7FB89E-A14B-4988-AA5E-AAE2DCD4137F}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection

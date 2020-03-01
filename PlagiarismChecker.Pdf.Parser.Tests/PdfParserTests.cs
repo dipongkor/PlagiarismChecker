@@ -13,17 +13,7 @@ namespace PlagiarismChecker.Pdf.Parser.Tests
 
             var text = pdfParser.GetText("PdfFiles/1.pdf");
 
-            Assert.AreEqual("Atish Kumar Dipongkor", text);
-        }
-
-        [TestMethod]
-        public void GetText2()
-        {
-            var pdfParser = new PdfParser();
-
-            var text = pdfParser.GetText("PdfFiles/2.pdf");
-
-            Assert.AreEqual("Atish Kumar Dipongkor", text);
+            Assert.AreEqual(text, "atish kumar dipongkor");
         }
     }
 }

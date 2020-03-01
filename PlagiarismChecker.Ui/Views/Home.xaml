@@ -104,7 +104,7 @@
                     Margin="8,15,8,8"
                     Height="30"
                     Style="{StaticResource PlaceHolder}" 
-                    Tag="i.e., .3 if you want to accept 30% plagiarism"
+                    Tag="i.e., 0.3 if you want to accept 30% plagiarism"
                     Name="TbxThreshold"/>
 
                 <TextBlock 

@@ -11,8 +11,9 @@ namespace Plagiarism.Vectoriser.Tests
         [TestMethod]
         public void CreateNGram()
         {
-            var c = new Ngram();
-            var ng = c.Create("This a sentence of my test", 3);
+            var ngram = new Ngram();
+            var words = ngram.Create("This a sentence of my test", 3);
+            CollectionAssert.AreEqual(words, new List<string> { "This a sentence", "a sentence of", "sentence of my", "of my test" });
         }
 
         [TestMethod]
@@ -34,23 +35,21 @@ namespace Plagiarism.Vectoriser.Tests
                 reports[fileName] = nGram.Create(contents, 3);
             }
 
-            var result =  tfIdf.Create(reports);
-
-           var similarity = new Similarity();
-
-           var sim = similarity.CreateRowWise(result);
+            var result = tfIdf.Create(reports);
+            Assert.AreEqual(result.GetLength(0), 2);
+            Assert.AreEqual(result.GetLength(1), 7);
         }
 
         [TestMethod]
-        public void CosineSim()
+        public void CosineSimilarity()
         {
             var sim = new Similarity();
 
-            double[] v1 = {1, 1, 1, 1, 0, 0, 0};
-            double[] v2 = {1, 1, 1, 0, 1, 1, 1};
+            double[] v1 = { 1, 1, 1, 1, 0, 0, 0 };
+            double[] v2 = { 1, 1, 1, 0, 1, 1, 1 };
 
             var sim1 = sim.CosineSimilarity(v1, v2);
-            var sim2 = sim.CosineSimilarity(v2, v1);
+            Assert.AreEqual(sim1, 0.61237243569579458);
         }
     }
 }
