@@ -15,19 +15,9 @@ date: 23 January 2020
 bibliography: paper.bib
 
 ---
-# Statement of Need
+# Summary
+Plagiarism, from an academic perspective, is defined as an act of presenting other people’s ideas, statements or works as their own [@anderson2011problem]. It is always a concern in universities and other academic institutions as this is quite common among students while submitting any assignments or reports. Teachers face difficulties in marking students’ assignments with a higher degree of judgment and waste their valuable time for plagiarism detection. In addition to that plagiarism has a serious effect on the learning objectives and creative thinkings of students. This software focuses on building an effective, simple and robust tool for plagiarism detection on text-based electronic assignments to minimize this issue and help teachers in conducting the proper evaluation of assignments and reports. Though text retrieval research has yielded some mature systems that are successful to detect copied or moderately altered text in an input document, those are well-suited to detect plagiarism of copy-paste type only (Debora Weber-Wulff. 2014). Researchers have proposed numerous approaches to improve the text-similarity assessment methods by adopting methods like paraphrasing, sentence matching or keyword matching (K. Vani and Deepa Gupta. 2016). Some commercially existing software such as have implemented those approaches and established those as an effective solution to detect plagiarism. A list of that software can be found in K. Vani and Deepa Gupta. 2016. However, none of those are freely available as well as they do not fulfill the actual need of academic faculties and instructors. To fulfill the aforementioned issues, AcPgChecker focuses on providing an effective tool for academic faculties and instructors to detect plagiarism in text-based electronic assignments. 
 
-Operating in space necessitates quantifying the positions, velocities, geometries, and other properties of spacecraft and planetary
- bodies through time. 
-Scientists and engineers working with robotic planetary spacecraft missions use the Spacecraft, Planet, Instrument, Camera-matrix, Events
- (SPICE) Toolkit [@acton:2018] to help plan observations and to quantify the positions of planetary bodies and spacecraft through time. 
-SPICE is developed at the Jet Propulsion Laboratory by NASA's Navigation and Ancillary Information Facility (NAIF). Scientists also use
- SPICE to analyze data returned by these missions and to plan hypothetical orbital trajectories for future missions [@acton:2018]. 
-For example, SPICE can calculate future occultations of planets relative to a camera on a rover or spacecraft. 
-The NAIF provides SPICE in Fortran 77, C, and they also provide Matlab and IDL wrappers; however, as of 2014, they did not offer a Python
- interface. 
-The growth of Python and movement away from proprietary interpreted languages [@burrell:2018] motivated the development of SpiceyPy so
- that planetary scientists and engineers can use SPICE within Python. 
 
 # Summary
 
