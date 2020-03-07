@@ -26,5 +26,7 @@ Plagiarism, from an academic perspective, is defined as an act of presenting oth
 * The output file is in excel format containing the roll numbers and percentage of similarity among the documents.
 * Users can customize the number of word sequences of similarity.
 * The threshold of plagiarism is also customizable depending on user needs.
-![User Interface of AcPgChecker](images/plagiarism_checker.PNG) 
+
+![User Interface of AcPgChecker](./images/plagiarism_checker.PNG)
+
 # References
