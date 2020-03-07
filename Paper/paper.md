@@ -1,5 +1,5 @@
 ---
-title: 'A tool for Plagiarism Detection in Students’ Assignments and Reports'
+title: 'AcPgChecker: A tool for Plagiarism Detection in Students’ Assignments and Reports'
 tags:
   - C#
   - WPF
