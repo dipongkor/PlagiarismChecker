@@ -1,4 +1,4 @@
-# AcPgChecker:  A Desktop Tool for Detecting Plagiarism in Academic Writing
+# AcPgChecker: A tool for Plagiarism Detection in Students’ Assignments and Reports
 Plagiarism is one of the growing issues in academia and is always a concern in Universities and other academic institutions as this is quite common among students while submitting any assignments or reports. Teachers face difficulties in marking students’ assignments with higher degree of judgment and waste their valuable time for plagiarism detection. This has made some strong influences on learning objectives of students. This tool focuses on building an effective, simple and fast tool for plagiarism detection on text based electronic assignments to minimize this issue and to help teachers in conducting proper evaluation of assignments.
 
 ## Documentation for End-Users
