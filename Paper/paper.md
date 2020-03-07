@@ -1,5 +1,5 @@
 ---
-title: 'AcPgChecker: Automated Plagiarism Detection in Academic Writing'
+title: 'A tool for Plagiarism Detection in Students’ Assignments and Reports'
 tags:
   - C#
   - WPF
@@ -7,6 +7,12 @@ tags:
 authors:
   - name: Atish Kumar Dipongkor
     orcid: 0000-0001-8253-429X
+    affiliation: 1
+  - name: Md Shafiuzzman
+    orcid: 0000-0002-1649-2906
+    affiliation: 1
+  - name: Md Asif Nashiry
+    orcid: 0000-0002-1649-290X
     affiliation: 1
 affiliations:
  - name: Jashore University of Science and Technology
