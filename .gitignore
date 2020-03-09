@@ -33,3 +33,5 @@ msbuild.wrn
 .vs/
 /Admission.Just.Portal/wwwroot/avatars
 /PlagiarismChecker.Tests/Reports
+
+packages/
