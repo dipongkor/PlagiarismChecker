@@ -104,11 +104,15 @@ namespace PlagiarismChecker.Ui.Views
             }
 
             var tfIdfMatrix = tfIdf.Create(reports);
-
+            var sw = new Stopwatch();
+            sw.Start();
+            Debug.WriteLine($"Create rowwise start.");
             var sim = new Similarity().CreateRowWise(tfIdfMatrix);
+            Debug.WriteLine($"Create rowwise end ({sw.ElapsedMilliseconds} ms).");
+
+            // all report.
 
             var strBuilder = new StringBuilder();
-
             strBuilder.AppendLine("Roll,Similarity");
 
             for (var r = 0; r < sim.GetLength(0); r++)
