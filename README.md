@@ -22,4 +22,4 @@ Plagiarism is one of the growing issues in academia and is always a concern in U
   - **Plagiarism.Vectoriser:** It is a class library for creating n-gram and document-term matrix. The unit tests of this library are written in **Plagiarism.Vectoriser.Tests**.
   - **PlagiarismChecker.Pdf.Parser:** This class library parses text from PDF documents. The unit tests of this library are written in **PlagiarismChecker.Pdf.Parser.Tests**.
   - **PlagiarismChecker.Ui:** It is a WPF solution which implements the UI and functionalities.
-  - **Plagiarism.Setup:** It is the setup project which generates installer file.
+  - **Plagiarism.Setup:** It is the setup project which generates installer file. This project has a dependency with an extension named [Microsoft Visual Studio Installer Projects](https://marketplace.visualstudio.com/items?itemName=VisualStudioClient.MicrosoftVisualStudio2017InstallerProjects). It is required to install this extension before running the project.
