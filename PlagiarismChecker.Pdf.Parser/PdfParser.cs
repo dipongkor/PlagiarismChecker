@@ -1,9 +1,9 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using iTextSharp.text.pdf;
-using iTextSharp.text.pdf.parser;
+using iText.Kernel.Pdf;
+using iText.Kernel.Pdf.Canvas.Parser;
+using iText.Kernel.Pdf.Canvas.Parser.Listener;
 
 namespace PlagiarismChecker.Pdf.Parser
 {
@@ -13,22 +13,27 @@ namespace PlagiarismChecker.Pdf.Parser
         {
             using (var reader = new PdfReader(filePath))
             {
-                var text = new StringBuilder();
-
-                for (var i = 1; i <= reader.NumberOfPages; i++)
+                using(var pdfDoc = new PdfDocument(reader))
                 {
-                    text.Append(PdfTextExtractor.GetTextFromPage(reader, i));
+                    var text = new StringBuilder();
+
+                    for (var page = 1; page <= pdfDoc.GetNumberOfPages(); page++)
+                    {
+                        var strategy = new SimpleTextExtractionStrategy();
+                        var pageContent = PdfTextExtractor.GetTextFromPage(pdfDoc.GetPage(page), strategy);
+                        text.Append(pageContent);
+                    }
+
+                    var fileTextWithoutNewLine = new Regex("[\r\n]+").Replace(text.ToString(), " ");
+
+                    var fileText = new Regex("[^a-zA-Z0-9 -]").Replace(fileTextWithoutNewLine, "");
+
+                    var regex = new Regex("[^\\s]+");
+
+                    var words = regex.Matches(fileText).Cast<Match>().Select(m => m.Value.ToLower());
+
+                    return string.Join(" ", words);
                 }
-
-                var fileTextWithoutNewLine = new Regex("[\r\n]+").Replace(text.ToString(), " ");
-
-                var fileText = new Regex("[^a-zA-Z0-9 -]").Replace(fileTextWithoutNewLine, "");
-
-                var regex = new Regex("[^\\s]+");
-
-                var words = regex.Matches(fileText).Cast<Match>().Select(m => m.Value.ToLower());
-
-                return string.Join(" ", words);
             }
         }
     }
