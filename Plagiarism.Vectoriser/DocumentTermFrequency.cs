@@ -15,18 +15,28 @@ namespace Plagiarism.Vectoriser
             var allWords = new List<string>();
             var totalDocuments = documents.Keys.Count;
 
+            int i = 0;
             foreach (var documentsValue in documents.Values)
             {
-               allWords.AddRange(documentsValue); 
+                var sw = new System.Diagnostics.Stopwatch();
+                sw.Start();
+                System.Diagnostics.Debug.Write($"Extracting document words for #{i++} ...");
+                allWords.AddRange(documentsValue);
+                System.Diagnostics.Debug.WriteLine($"completed in {sw.ElapsedMilliseconds}ms.");
             }
 
             var distinctTerms = allWords.Distinct().ToArray();
             var totalDistinctTerms = distinctTerms.Count();
 
             var tfIdfMatrix = new double[totalDocuments, totalDistinctTerms];
+            
 
             for (var r = 0; r < totalDocuments; r++)
             {
+                var sw = new System.Diagnostics.Stopwatch();
+                sw.Start();
+                System.Diagnostics.Debug.Write($"Processing document {r}...");
+                
                 for (var c = 0; c < totalDistinctTerms; c++)
                 {
                     var key = documents.Keys.ElementAt(r);
@@ -35,6 +45,7 @@ namespace Plagiarism.Vectoriser
 
                     tfIdfMatrix[r, c] = tf;
                 }
+                System.Diagnostics.Debug.WriteLine($"completed in {sw.ElapsedMilliseconds}ms.");
             }
 
             return tfIdfMatrix;
